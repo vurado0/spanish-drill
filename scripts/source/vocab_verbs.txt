@@ -1,0 +1,434 @@
+# Vocabulary verbs — simple to intermediate (not in the 200 core list)
+# format: infinitive|English   — lines starting with "# " are categories
+
+# Communication & social life
+charlar|to chat
+saludar|to greet
+felicitar|to congratulate
+comentar|to comment, to mention
+mencionar|to mention
+anunciar|to announce, to advertise
+avisar|to notify, to let know, to warn
+aclarar|to clarify
+expresar|to express
+opinar|to think, to give an opinion
+insistir|to insist
+quejarse|to complain
+disculparse|to apologise
+perdonar|to forgive
+agradecer|to thank
+prometer|to promise
+convencer|to convince
+persuadir|to persuade
+negociar|to negotiate
+rogar|to beg, to plead
+suplicar|to beg, to implore
+gritar|to shout
+susurrar|to whisper
+callar|to be quiet, to keep quiet
+bromear|to joke
+mentir|to lie
+engañar|to deceive, to cheat (on)
+invitar|to invite
+brindar|to toast; to offer
+abrazar|to hug
+besar|to kiss
+acompañar|to accompany
+citar|to quote; to make an appointment
+pronunciar|to pronounce
+interrumpir|to interrupt
+reprochar|to reproach
+criticar|to criticise
+burlarse|to make fun of
+enamorarse|to fall in love
+casarse|to get married
+divorciarse|to get divorced
+convivir|to live together, to coexist
+llevarse bien|to get along well
+
+# Work, study & organisation
+organizar|to organise
+planear|to plan
+programar|to schedule; to program
+coordinar|to coordinate
+gestionar|to manage, to handle
+encargar|to order; to put in charge
+encargarse|to take care of, to be in charge of
+delegar|to delegate
+colaborar|to collaborate
+participar|to take part
+contratar|to hire
+despedirse|to say goodbye
+jubilarse|to retire
+dimitir|to resign (from a post)
+renunciar|to give up; to resign
+solicitar|to apply for, to request
+rellenar|to fill in (a form)
+firmar|to sign
+entregar|to hand in, to deliver
+redactar|to draft, to write up
+repasar|to review, to revise (study)
+subrayar|to underline
+apuntar|to note down; to sign up; to aim
+anotar|to note down; to score
+tachar|to cross out
+corregir|to correct
+evaluar|to evaluate, to assess
+aprobar|to pass (an exam); to approve
+suspender|to fail (an exam); to suspend
+matricularse|to enrol
+inscribirse|to sign up, to register
+investigar|to research, to investigate
+analizar|to analyse
+calcular|to calculate
+comprobar|to check, to verify
+revisar|to check, to review
+confirmar|to confirm
+cancelar|to cancel
+aplazar|to postpone
+posponer|to postpone
+retrasar|to delay
+adelantar|to bring forward; to overtake
+cumplir|to fulfil; to meet (a deadline)
+lograr|to achieve
+fracasar|to fail
+superar|to overcome; to exceed
+esforzarse|to make an effort
+centrarse|to focus
+concentrarse|to concentrate
+distraer|to distract
+desempeñar|to carry out; to play (a role)
+ejercer|to practise (a profession), to exercise
+emplear|to employ, to use
+asumir|to take on, to assume
+cobrar|to charge; to get paid
+
+# Everyday life & home
+alquilar|to rent
+mudarse|to move (house)
+amueblar|to furnish
+instalar|to install
+montar|to assemble, to set up; to ride
+arreglar|to fix, to tidy, to arrange
+reparar|to repair
+ordenar|to tidy up; to order
+barrer|to sweep
+fregar|to scrub, to wash (dishes)
+planchar|to iron
+tender|to hang out (laundry); to tend to
+secar|to dry
+mojar|to wet
+ensuciar|to make dirty
+colocar|to place, to put
+guardar|to keep, to put away; to save (a file)
+esconder|to hide
+tirar|to throw (away); to pull
+reciclar|to recycle
+calentar|to heat up
+hervir|to boil
+enfriar|to cool down
+pelar|to peel
+cortar|to cut
+mezclar|to mix
+probar|to taste, to try
+servir|to serve
+encender|to turn on
+apagar|to turn off
+enchufar|to plug in
+cargar|to charge (battery); to load
+madrugar|to get up early
+trasnochar|to stay up late
+acostarse|to go to bed
+levantarse|to get up
+ducharse|to have a shower
+afeitarse|to shave
+peinarse|to comb one's hair
+maquillarse|to put on make-up
+vestirse|to get dressed
+quitarse|to take off (clothes)
+probarse|to try on (clothes)
+regalar|to give (as a present)
+prestar|to lend
+pedir prestado|to borrow
+devolver|to give back
+compartir|to share
+sobrar|to be left over
+faltar|to be missing
+bastar|to be enough
+tardar|to take (time); to be late
+soler|to tend to, to usually do
+acostumbrarse|to get used to
+
+# Feelings & attitudes
+disfrutar|to enjoy
+aburrirse|to get bored
+divertirse|to have fun
+alegrarse|to be glad
+preocuparse|to worry
+enfadarse|to get angry
+molestar|to bother, to annoy
+fastidiar|to annoy, to ruin
+agobiarse|to feel overwhelmed
+relajarse|to relax
+calmarse|to calm down
+emocionarse|to get emotional, to be moved
+asustarse|to get scared
+sorprender|to surprise
+extrañar|to miss (sb); to surprise
+echar de menos|to miss (sb, sth)
+añorar|to long for
+envidiar|to envy
+odiar|to hate
+temer|to fear
+atreverse|to dare
+arrepentirse|to regret
+avergonzarse|to be ashamed
+confiar|to trust
+desconfiar|to distrust
+fiarse|to trust, to rely on
+apreciar|to appreciate
+valorar|to value; to assess
+respetar|to respect
+admirar|to admire
+soportar|to stand, to put up with
+aguantar|to bear, to hold on
+tolerar|to tolerate
+animar|to encourage, to cheer up
+desanimarse|to lose heart
+ilusionarse|to get excited (about)
+decepcionar|to disappoint
+lamentar|to regret, to be sorry about
+suspirar|to sigh
+llorar|to cry
+
+# Thinking & judging
+darse cuenta|to realise
+enterarse|to find out
+averiguar|to find out
+adivinar|to guess
+suponer|to suppose
+sospechar|to suspect
+dudar|to doubt
+deducir|to deduce
+razonar|to reason
+reflexionar|to reflect, to think over
+plantear|to raise (a question), to pose
+considerar|to consider
+comparar|to compare
+distinguir|to distinguish
+juzgar|to judge
+decidirse|to make up one's mind
+equivocarse|to make a mistake, to be wrong
+acertar|to get it right; to hit (a target)
+fijarse|to notice, to pay attention
+notar|to notice
+ignorar|to ignore; not to know
+olvidarse|to forget
+acordarse|to remember
+recordar|to remember; to remind
+imaginarse|to imagine
+interpretar|to interpret; to perform
+definir|to define
+determinar|to determine
+estimar|to estimate; to esteem
+predecir|to predict
+prever|to foresee
+pretender|to intend, to try to (not "pretend")
+procurar|to try to, to make sure to
+intentar|to try
+
+# Change, cause & effect
+aumentar|to increase
+disminuir|to decrease
+reducir|to reduce
+ampliar|to extend, to enlarge
+extender|to extend, to spread
+mejorar|to improve
+empeorar|to get worse
+crecer|to grow
+envejecer|to grow old, to age
+madurar|to mature, to ripen
+evolucionar|to evolve
+transformar|to transform
+convertirse|to become, to turn into
+volverse|to become (sudden change)
+hacerse|to become (through effort)
+ponerse|to become (temporary state)
+quedarse|to stay; to end up (+ adj.)
+adaptarse|to adapt
+ajustar|to adjust
+modificar|to modify
+sustituir|to substitute
+reemplazar|to replace
+causar|to cause
+provocar|to provoke, to cause
+afectar|to affect
+influir|to influence
+depender|to depend
+implicar|to imply, to involve
+generar|to generate
+fomentar|to promote, to encourage
+impedir|to prevent, to hinder
+prevenir|to prevent; to warn
+evitar|to avoid
+favorecer|to favour; to suit
+facilitar|to make easier; to provide
+complicar|to complicate
+agotar|to exhaust, to use up
+durar|to last
+permanecer|to remain
+mantenerse|to stay, to keep (oneself)
+
+# Movement & travel
+viajar|to travel
+recorrer|to travel around, to cover (distance)
+atravesar|to cross, to go through
+cruzar|to cross
+girar|to turn
+doblar|to turn (a corner); to fold; to dub
+avanzar|to advance
+retroceder|to go back, to back down
+alejarse|to move away
+acercarse|to approach
+dirigirse|to head for; to address
+regresar|to return
+marcharse|to leave, to go away
+escaparse|to escape, to run away
+perseguir|to chase, to pursue
+seguir|to follow
+reservar|to book, to reserve
+alojarse|to stay (hotel)
+embarcar|to board
+despegar|to take off
+aterrizar|to land
+aparcar|to park
+frenar|to brake
+arrancar|to start (an engine); to pull out
+adelantarse|to get ahead; to be early
+perderse|to get lost
+orientarse|to find one's way
+ubicar|to locate
+tropezar|to trip, to stumble
+resbalar|to slip
+empujar|to push
+arrastrar|to drag
+trasladar|to move, to transfer
+emigrar|to emigrate
+
+# Money & business
+ahorrar|to save (money, time)
+gastar|to spend (money); to wear out
+invertir|to invest
+financiar|to finance
+pagar a plazos|to pay in instalments
+deber|to owe
+prestar|to lend
+cobrar|to charge
+costar|to cost
+valer|to be worth
+compensar|to make up for; to be worth it
+rebajar|to reduce (price)
+fabricar|to manufacture
+producir|to produce
+exportar|to export
+importar|to import; to matter
+distribuir|to distribute
+ofrecer|to offer
+vender|to sell
+adquirir|to acquire
+consumir|to consume
+reclamar|to claim, to complain (formally)
+garantizar|to guarantee
+proporcionar|to provide
+suministrar|to supply
+heredar|to inherit
+arruinarse|to go bankrupt
+quebrar|to go bust; to break
+recaudar|to raise, to collect (money)
+
+# Tech & media
+descargar|to download; to unload
+subir|to upload
+actualizar|to update
+borrar|to delete, to erase
+eliminar|to eliminate, to delete
+adjuntar|to attach
+conectar|to connect
+desconectar|to disconnect; to switch off (mentally)
+bloquear|to block
+reiniciar|to restart
+grabar|to record
+imprimir|to print
+escanear|to scan
+copiar|to copy
+pegar|to paste; to stick; to hit
+publicar|to publish, to post
+compartir en redes|to share on social media
+seleccionar|to select
+navegar|to browse; to sail
+teclear|to type
+pinchar|to click (Spain); to prick
+registrarse|to sign up
+iniciar sesión|to log in
+cerrar sesión|to log out
+transmitir|to broadcast, to transmit
+
+# Conflict & problems
+discutir|to argue
+pelearse|to fight, to fall out
+enfrentarse|to face, to confront
+amenazar|to threaten
+atacar|to attack
+defenderse|to defend oneself
+culpar|to blame
+acusar|to accuse
+denunciar|to report (a crime), to denounce
+castigar|to punish
+robar|to steal, to rob
+herir|to wound, to hurt
+dañar|to damage, to harm
+estropear|to break, to ruin
+romperse|to break
+fallar|to fail, to let down
+chocar|to crash, to clash
+rechazar|to reject
+negarse|to refuse
+rendirse|to give up, to surrender
+resistir|to resist, to withstand
+sobrevivir|to survive
+rescatar|to rescue
+salvar|to save, to rescue
+proteger|to protect
+vigilar|to watch over, to keep an eye on
+solucionar|to solve
+resolver|to resolve, to solve
+arriesgar|to risk
+abusar|to take advantage, to abuse
+ocultar|to hide, to conceal
+
+# Body & health
+respirar|to breathe
+toser|to cough
+estornudar|to sneeze
+doler|to hurt, to ache
+sangrar|to bleed
+marearse|to feel dizzy, to get seasick
+desmayarse|to faint
+enfermar|to fall ill
+contagiar|to infect, to pass on
+curar|to cure, to heal
+recuperarse|to recover
+cuidarse|to look after oneself
+adelgazar|to lose weight
+engordar|to put on weight
+entrenar|to train
+estirar|to stretch
+sudar|to sweat
+temblar|to tremble, to shake
+bostezar|to yawn
+roncar|to snore
+morder|to bite
+tragar|to swallow
+masticar|to chew
+padecer|to suffer from
+aliviar|to relieve

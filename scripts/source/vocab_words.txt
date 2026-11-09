@@ -1,0 +1,422 @@
+# Vocabulary words — simple to intermediate (nouns, adjectives, adverbs, connectors)
+# format: word|English   — "!" at the start of the English = false friend warning
+
+# Connectors & useful phrases
+sin embargo|however
+aunque|although, even though
+por lo tanto|therefore
+además|besides, furthermore
+mientras|while
+en cambio|on the other hand, instead
+a pesar de|despite, in spite of
+de hecho|in fact
+por fin|finally, at last
+a menudo|often
+de repente|suddenly
+todavía|still, yet
+apenas|hardly, barely
+incluso|even
+sino|but rather (after a negative)
+o sea|I mean, in other words
+es decir|that is to say
+en cuanto|as soon as
+dado que|given that
+ya que|since, because
+por eso|that's why
+mientras tanto|meanwhile
+de vez en cuando|from time to time
+cuanto antes|as soon as possible
+al final|in the end
+enseguida|right away
+últimamente|lately
+actualmente|!currently (not "actually")
+quizás|perhaps, maybe
+a lo mejor|maybe, perhaps
+de todos modos|anyway
+sobre todo|above all, especially
+cada vez más|more and more
+a la vez|at the same time
+de acuerdo|agreed, OK
+en realidad|actually, in reality
+por suerte|luckily
+por desgracia|unfortunately
+a propósito|by the way; on purpose
+a tiempo|on time
+de nuevo|again
+en absoluto|not at all
+por lo menos|at least
+más o menos|more or less
+en vez de|instead of
+a partir de|from (… on), starting from
+con respecto a|regarding
+según|according to
+
+# Feelings & character
+la alegría|joy
+la tristeza|sadness
+el miedo|fear
+la vergüenza|embarrassment, shame
+el orgullo|pride
+la envidia|envy
+los celos|jealousy
+la confianza|trust, confidence
+la duda|doubt
+la esperanza|hope
+la culpa|guilt, fault, blame
+la soledad|loneliness
+la paciencia|patience
+el agobio|feeling of being overwhelmed
+la nostalgia|nostalgia, homesickness
+la ilusión|excitement, hope (rarely "illusion")
+el cariño|affection
+la amistad|friendship
+el enfado|anger
+la decepción|!disappointment (not "deception")
+el ánimo|mood, spirit; encouragement
+el sentimiento|feeling, emotion
+la sensación|sensation, feeling
+agotado|exhausted
+harto|fed up
+preocupado|worried
+orgulloso|proud
+avergonzado|ashamed
+embarazada|!pregnant (not "embarrassed")
+celoso|jealous
+tímido|shy
+sensible|!sensitive (not "sensible")
+sensato|sensible, reasonable
+amable|kind, friendly
+grosero|rude
+maleducado|rude, ill-mannered
+terco|stubborn
+exigente|demanding
+perezoso|lazy
+trabajador|hard-working
+despistado|absent-minded, scatterbrained
+egoísta|selfish
+generoso|generous
+sincero|sincere, honest
+agradable|pleasant
+molesto|annoying; annoyed
+gracioso|funny
+tranquilo|calm, quiet
+listo|clever (ser listo); ready (estar listo)
+dispuesto|willing
+
+# Describing things
+raro|strange; rare
+cómodo|comfortable
+incómodo|uncomfortable
+útil|useful
+inútil|useless
+peligroso|dangerous
+seguro|safe; sure
+gratis|free (of charge)
+caro|expensive
+barato|cheap
+lleno|full
+vacío|empty
+ancho|wide
+estrecho|narrow, tight
+suave|soft, smooth, gentle
+áspero|rough
+duro|hard, tough
+blando|soft
+capaz|capable
+imprescindible|essential, indispensable
+actual|!current (not "actual")
+propio|own
+ajeno|someone else's
+disponible|available
+ocupado|busy; occupied
+lento|slow
+sencillo|simple
+complicado|complicated
+fiable|reliable
+grave|serious (illness, problem)
+leve|slight, minor
+amplio|spacious, wide
+escaso|scarce
+valioso|valuable
+ruidoso|noisy
+sano|healthy
+saludable|healthy (food, habits)
+antiguo|old, ancient; former
+reciente|recent
+habitual|usual, regular
+diario|daily
+semanal|weekly
+mensual|monthly
+probable|likely
+evidente|obvious
+
+# Money & paperwork
+el recibo|receipt
+la factura|invoice, bill
+el presupuesto|budget; quote
+el ahorro|savings
+la deuda|debt
+el préstamo|loan
+la cuenta|account; bill (restaurant)
+el sueldo|salary, wages
+el impuesto|tax
+el alquiler|rent
+la hipoteca|mortgage
+la tarjeta|card
+el cajero automático|cash machine, ATM
+el efectivo|cash
+el descuento|discount
+las rebajas|sales (shops)
+la propina|tip
+el trámite|procedure, paperwork
+la solicitud|application, request
+el requisito|requirement
+el plazo|deadline; period; instalment
+el documento de identidad|ID card
+la firma|signature; firm
+
+# Home & daily life
+el piso|flat, apartment; floor
+el vecino|neighbour
+la mudanza|move (house)
+el electrodoméstico|household appliance
+la nevera|fridge
+el horno|oven
+el grifo|tap, faucet
+el enchufe|plug, socket
+la bombilla|light bulb
+la cerradura|lock
+el cajón|drawer
+el estante|shelf
+la basura|rubbish, trash
+el reciclaje|recycling
+la lavadora|washing machine
+la sartén|frying pan
+la olla|pot
+los cubiertos|cutlery
+el paraguas|umbrella
+la cartera|wallet
+el bolso|handbag
+el cargador|charger
+la manta|blanket
+la almohada|pillow
+la percha|hanger
+el sabor|taste, flavour
+picante|spicy
+soso|bland, tasteless
+crudo|raw
+la ración|portion
+la merienda|afternoon snack
+el postre|dessert
+el aceite|oil
+la harina|flour
+
+# Work & study
+la empresa|company
+el jefe|boss
+el compañero|colleague, classmate
+la reunión|meeting
+la entrevista|interview
+el currículum|CV, résumé
+el puesto|position, post
+la plantilla|staff; template
+el contrato|contract
+la jornada|working day
+el horario|schedule, timetable
+el ascenso|promotion
+el despido|dismissal
+el paro|unemployment
+la huelga|strike
+el sindicato|trade union
+el beneficio|profit; benefit
+la pérdida|loss
+el cliente|customer, client
+el proveedor|supplier
+la competencia|competition; competence
+el éxito|!success (not "exit")
+el fracaso|failure
+el reto|challenge
+el objetivo|goal, objective
+el logro|achievement
+el esfuerzo|effort
+la asignatura|subject (school, university)
+la carrera|degree; race; career
+la beca|scholarship, grant
+la matrícula|enrolment; tuition fee; number plate
+el examen|exam
+la nota|grade, mark; note
+los apuntes|lecture notes
+el trabajo de fin de grado|bachelor's thesis
+la conferencia|lecture; conference
+el aprobado|pass (grade)
+el suspenso|fail (grade)
+la investigación|research; investigation
+el conocimiento|knowledge
+la habilidad|skill
+la experiencia|experience
+la tarea|task; homework
+la fecha límite|deadline
+
+# Tech
+la pantalla|screen
+el teclado|keyboard
+el ratón|mouse
+la contraseña|password
+el usuario|user; username
+el archivo|file
+la carpeta|folder
+la red|network; net
+las redes sociales|social media
+el enlace|link
+la descarga|download
+la actualización|update
+el correo electrónico|email
+la aplicación|app
+el ordenador|computer (Spain)
+el portátil|laptop
+el móvil|mobile phone (Spain)
+la batería|battery
+la copia de seguridad|backup
+el fallo|error, fault, failure
+la nube|cloud
+
+# Health & body
+la salud|health
+el resfriado|cold (illness)
+la gripe|flu
+la tos|cough
+la fiebre|fever
+el dolor de cabeza|headache
+la herida|wound
+la cicatriz|scar
+la receta|prescription; recipe
+la pastilla|pill
+el jarabe|syrup
+la cita|appointment; date; quote
+el seguro médico|health insurance
+las urgencias|A&E, emergency room
+la espalda|back
+el hombro|shoulder
+la rodilla|knee
+el tobillo|ankle
+la muñeca|wrist; doll
+el codo|elbow
+la garganta|throat
+el pecho|chest
+la piel|skin
+el hueso|bone
+la sangre|blood
+el sueño|sleep; dream; sleepiness
+el cansancio|tiredness
+constipado|!having a cold (not "constipated")
+
+# City & travel
+el ayuntamiento|town hall
+la acera|pavement, sidewalk
+el aparcamiento|car park, parking lot
+el atasco|traffic jam
+el billete|ticket; banknote
+la parada|stop (bus, tram)
+el andén|platform
+el retraso|delay
+la cola|queue, line
+el equipaje|luggage
+la maleta|suitcase
+la reserva|booking, reservation
+el alojamiento|accommodation
+el albergue|hostel
+el vuelo|flight
+la escala|stopover, layover
+la tarjeta de embarque|boarding pass
+la aduana|customs
+el barrio|neighbourhood
+las afueras|outskirts
+el casco antiguo|old town
+el semáforo|traffic light
+el cruce|junction, crossing
+la esquina|(street) corner
+el rincón|(inside) corner
+el puente|bridge; long weekend
+el paisaje|landscape
+la orilla|shore, bank
+el bosque|forest
+la costa|coast
+la tormenta|storm
+la niebla|fog
+el relámpago|lightning
+la carretera|road
+el peaje|toll
+
+# Society & world
+el gobierno|government
+la ley|law
+el derecho|right; law (subject)
+las elecciones|elections
+el ciudadano|citizen
+la sociedad|society
+la desigualdad|inequality
+la pobreza|poverty
+la riqueza|wealth
+el medio ambiente|environment
+el cambio climático|climate change
+la contaminación|pollution
+la sequía|drought
+la inundación|flood
+el incendio|fire (blaze)
+el terremoto|earthquake
+la noticia|news item
+el periódico|newspaper
+el titular|headline
+la encuesta|survey, poll
+el acuerdo|agreement
+la frontera|border
+el extranjero|foreigner; abroad
+la costumbre|custom, habit
+el idioma|language
+el malentendido|misunderstanding
+la carpeta|folder
+
+# Abstract & useful nouns
+la ventaja|advantage
+la desventaja|disadvantage
+el inconveniente|drawback, problem
+el riesgo|risk
+la oportunidad|opportunity
+la propuesta|proposal
+la razón|reason; being right (tener razón)
+el motivo|reason, motive
+la consecuencia|consequence
+el resultado|result
+el cambio|change; exchange; change (money)
+el desarrollo|development
+el crecimiento|growth
+el aumento|increase
+la mejora|improvement
+el nivel|level
+la calidad|quality
+la cantidad|quantity, amount
+el tamaño|size
+el peso|weight
+la medida|measure, measurement
+la manera|way, manner
+el tema|topic, subject
+el asunto|matter, issue
+el punto de vista|point of view
+el consejo|piece of advice; council
+la queja|complaint
+el apoyo|support
+el permiso|permission; leave
+la norma|rule, norm
+la advertencia|warning
+la señal|sign, signal
+el recuerdo|memory; souvenir
+la mentira|lie
+la broma|joke, prank
+el chiste|joke (told)
+el ocio|leisure
+la afición|hobby, passion
+el equipo|team; equipment
+la mitad|half
+el promedio|average
+el porcentaje|percentage
+el éxito|success

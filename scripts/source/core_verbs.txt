@@ -1,0 +1,230 @@
+# 200 most common Spanish verbs (roughly by frequency) — format: infinitive|English
+ser|to be (identity, traits, time)
+estar|to be (state, location)
+tener|to have
+hacer|to do, to make
+ir|to go
+poder|can, to be able to
+decir|to say, to tell
+haber|to have (auxiliary); there is / there are
+dar|to give
+ver|to see, to watch
+saber|to know (facts, how to)
+querer|to want, to love
+llegar|to arrive
+pasar|to pass, to happen, to spend (time)
+deber|must, should; to owe
+poner|to put, to place
+parecer|to seem
+quedar|to remain, to be left; to meet up
+creer|to believe, to think
+hablar|to speak, to talk
+llevar|to carry, to wear, to take (sb/sth)
+dejar|to leave (behind), to let
+seguir|to follow, to continue
+encontrar|to find
+llamar|to call
+venir|to come
+pensar|to think
+salir|to go out, to leave
+volver|to return, to come back
+tomar|to take, to drink
+conocer|to know (people, places), to meet
+vivir|to live
+sentir|to feel; to be sorry
+tratar|to try; to treat
+mirar|to look at, to watch
+contar|to count; to tell (a story)
+empezar|to begin, to start
+esperar|to wait; to hope; to expect
+buscar|to look for
+existir|to exist
+entrar|to enter, to go in
+trabajar|to work
+escribir|to write
+perder|to lose; to miss (a bus)
+producir|to produce
+ocurrir|to happen, to occur
+entender|to understand
+pedir|to ask for, to order
+recibir|to receive
+recordar|to remember; to remind
+terminar|to finish, to end
+permitir|to allow
+aparecer|to appear
+conseguir|to get, to obtain, to manage to
+comenzar|to begin, to start
+servir|to serve; to be useful
+sacar|to take out; to get (a grade, a photo)
+necesitar|to need
+mantener|to maintain, to keep
+resultar|to turn out (to be)
+leer|to read
+caer|to fall
+cambiar|to change
+presentar|to present, to introduce
+crear|to create
+abrir|to open
+considerar|to consider
+oír|to hear
+acabar|to finish; acabar de + inf = to have just
+convertir|to convert, to turn into
+ganar|to win; to earn
+formar|to form, to shape
+traer|to bring
+partir|to leave, to depart; to split
+morir|to die
+aceptar|to accept
+realizar|to carry out, to accomplish
+suponer|to suppose, to assume
+comprender|to understand; to include
+lograr|to achieve, to manage to
+explicar|to explain
+preguntar|to ask (a question)
+tocar|to touch; to play (an instrument)
+reconocer|to recognise; to admit
+estudiar|to study
+alcanzar|to reach, to attain
+nacer|to be born
+dirigir|to direct, to lead
+correr|to run
+utilizar|to use
+pagar|to pay
+ayudar|to help
+gustar|to please (me gusta = I like)
+jugar|to play (games, sports)
+escuchar|to listen (to)
+cumplir|to fulfil; to turn (an age)
+ofrecer|to offer
+descubrir|to discover
+levantar|to raise, to lift
+intentar|to try, to attempt
+usar|to use
+decidir|to decide
+repetir|to repeat
+olvidar|to forget
+valer|to be worth, to cost
+comer|to eat
+mostrar|to show
+ocupar|to occupy
+mover|to move
+continuar|to continue
+suceder|to happen; to follow (succeed)
+referir|to refer
+acercar|to bring closer
+dedicar|to dedicate
+aprender|to learn
+comprar|to buy
+subir|to go up, to climb; to upload
+evitar|to avoid
+interesar|to interest
+cerrar|to close
+echar|to throw, to pour; to throw out
+responder|to answer, to respond
+sufrir|to suffer
+importar|to matter; to import
+obtener|to obtain, to get
+observar|to observe
+indicar|to indicate
+imaginar|to imagine
+soler|to usually (do sth)
+detener|to stop, to arrest
+desarrollar|to develop
+señalar|to point out, to signal
+elegir|to choose, to elect
+preparar|to prepare
+proponer|to propose
+demostrar|to demonstrate, to prove
+significar|to mean, to signify
+reunir|to gather, to bring together
+faltar|to be missing, to lack
+acompañar|to accompany
+desear|to wish, to desire
+enseñar|to teach; to show
+construir|to build
+vender|to sell
+representar|to represent
+desaparecer|to disappear
+mejorar|to improve
+crecer|to grow
+dormir|to sleep
+andar|to walk; to go, to work (machine)
+mandar|to send; to order
+pertenecer|to belong
+viajar|to travel
+preferir|to prefer
+contestar|to answer
+caminar|to walk
+cuidar|to take care of
+beber|to drink
+limpiar|to clean
+cocinar|to cook
+conducir|to drive
+traducir|to translate
+romper|to break
+mentir|to lie (tell a lie)
+huir|to flee
+incluir|to include
+destruir|to destroy
+caber|to fit
+sonreír|to smile
+reír|to laugh
+vestir|to dress
+medir|to measure
+despedir|to dismiss, to fire; (despedirse) to say goodbye
+corregir|to correct
+proteger|to protect
+coger|to take, to catch (Spain)
+escoger|to choose, to pick
+exigir|to demand
+almorzar|to have lunch
+cenar|to have dinner
+desayunar|to have breakfast
+devolver|to give back, to return (sth)
+resolver|to solve, to resolve
+llover|to rain
+doler|to hurt, to ache
+oler|to smell
+probar|to try, to taste, to test
+soñar|to dream
+costar|to cost
+volar|to fly
+colgar|to hang (up)
+negar|to deny
+despertar|to wake (sb) up
+sentar|to seat; (sentarse) to sit down
+divertir|to amuse; (divertirse) to have fun
+advertir|to warn
+atender|to attend to, to serve
+defender|to defend
+encender|to switch on, to light
+discutir|to argue; to discuss
+compartir|to share
+añadir|to add
+asistir|to attend
+describir|to describe
+prohibir|to prohibit, to ban
+lavar|to wash
+llenar|to fill
+enviar|to send
+confiar|to trust
+actuar|to act
+reducir|to reduce
+agradecer|to thank, to be grateful for
+merecer|to deserve
+establecer|to establish
+nadar|to swim
+bailar|to dance
+cantar|to sing
+llorar|to cry
+odiar|to hate
+temer|to fear
+convencer|to convince
+recoger|to pick up, to collect
+apagar|to switch off
+aprobar|to approve; to pass (an exam)
+celebrar|to celebrate
+contener|to contain
+deshacer|to undo; to unpack
+freír|to fry
+satisfacer|to satisfy
