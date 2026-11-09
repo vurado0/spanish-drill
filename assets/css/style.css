@@ -234,3 +234,23 @@ dialog::backdrop { background: rgba(20,15,10,.55); backdrop-filter: blur(2px); }
 [hidden] { display: none !important; }
 .muted { color: var(--muted); }
 .tag.link { cursor: pointer; text-decoration: none; color: var(--accent); font-weight: 600; border-color: var(--accent); background: transparent; }
+
+/* ---------- learning direction switch */
+html[data-mode="learn-es"] [data-only="learn-en"],
+html[data-mode="learn-en"] [data-only="learn-es"] { display: none !important; }
+.seg.lang { flex: none; }
+.seg.lang button { font-size: .85rem; padding: .35rem .7rem; min-height: 36px; white-space: nowrap; }
+.verb-parts { margin-left: auto; font: 600 .82rem var(--mono); color: var(--muted); white-space: nowrap; }
+html[data-mode="learn-en"] .hide-en .vcard:not(.revealed)::after { content: "toca para ver"; }
+.en-parts table { min-width: 560px; }
+@media (max-width: 720px) {
+  .brand { font-size: 1rem; }
+  #brandName { display: none; }
+  .seg.lang { margin-left: auto; }
+  .theme-toggle { margin-left: 0; }
+}
+@media (max-width: 480px) {
+  .seg.lang button span { display: none; }
+  .seg.lang button[data-mode="learn-es"]::after { content: "Español"; }
+  .seg.lang button[data-mode="learn-en"]::after { content: "English"; }
+}

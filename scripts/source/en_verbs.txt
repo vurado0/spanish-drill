@@ -1,0 +1,227 @@
+# 200 common English verbs for Spanish speakers — roughly by frequency
+# format: base|Spanish|past|participle|ing    (empty = regular rule; "a/b" = both accepted, first is shown)
+be|ser, estar|was/were|been|being
+have|tener; haber (auxiliar)|had|had|
+do|hacer|did|done|
+say|decir|said|said|
+go|ir|went|gone|
+get|conseguir, obtener; llegar; ponerse|got|got/gotten|getting
+make|hacer, fabricar|made|made|
+know|saber, conocer|knew|known|
+think|pensar, creer|thought|thought|
+take|tomar, llevar, coger|took|taken|
+see|ver|saw|seen|
+come|venir|came|come|
+want|querer|||
+look|mirar; parecer|||
+use|usar|||
+find|encontrar|found|found|
+give|dar|gave|given|
+tell|decir, contar|told|told|
+work|trabajar; funcionar|||
+call|llamar|||
+try|intentar; probar|||
+ask|preguntar; pedir|||
+need|necesitar|||
+feel|sentir(se)|felt|felt|
+become|llegar a ser, volverse|became|become|
+leave|dejar; irse, salir|left|left|
+put|poner|put|put|putting
+mean|significar, querer decir|meant|meant|
+keep|guardar, mantener; seguir (+ -ing)|kept|kept|
+let|dejar, permitir|let|let|letting
+begin|empezar, comenzar|began|begun|beginning
+seem|parecer|||
+help|ayudar|||
+talk|hablar, charlar|||
+turn|girar; convertirse en|||
+start|empezar|||
+show|mostrar, enseñar|showed|shown|
+hear|oír|heard|heard|
+play|jugar; tocar (un instrumento)|||
+run|correr; dirigir (un negocio)|ran|run|running
+move|mover; mudarse|||
+like|gustar|||
+live|vivir|||
+believe|creer|||
+hold|sostener, sujetar|held|held|
+bring|traer|brought|brought|
+happen|pasar, ocurrir|||
+write|escribir|wrote|written|
+provide|proporcionar|||
+sit|sentarse|sat|sat|sitting
+stand|estar de pie; soportar|stood|stood|
+lose|perder|lost|lost|
+pay|pagar|paid|paid|
+meet|conocer (a alguien); quedar con|met|met|
+include|incluir|||
+continue|continuar|||
+set|poner, fijar, establecer|set|set|setting
+learn|aprender|learned/learnt|learned/learnt|
+change|cambiar|||
+lead|dirigir, llevar a|led|led|
+understand|entender|understood|understood|
+watch|mirar, ver (TV)|||
+follow|seguir|||
+stop|parar, dejar de|stopped|stopped|
+create|crear|||
+speak|hablar|spoke|spoken|
+read|leer|read|read|
+allow|permitir|||
+add|añadir|||
+spend|gastar; pasar (tiempo)|spent|spent|
+grow|crecer; cultivar|grew|grown|
+open|abrir|||
+walk|caminar, andar|||
+win|ganar|won|won|winning
+offer|ofrecer|||
+remember|recordar, acordarse|||
+love|amar, encantar|||
+consider|considerar|||
+appear|aparecer|||
+buy|comprar|bought|bought|
+wait|esperar (a alguien)|||
+serve|servir|||
+die|morir|||
+send|enviar|sent|sent|
+expect|esperar, suponer|||
+build|construir|built|built|
+stay|quedarse|||
+fall|caer(se)|fell|fallen|
+cut|cortar|cut|cut|cutting
+reach|alcanzar, llegar a|||
+kill|matar|||
+remain|permanecer|||
+suggest|sugerir|||
+raise|levantar; criar; subir (precios)|||
+pass|pasar; aprobar (un examen)|||
+sell|vender|sold|sold|
+require|requerir|||
+decide|decidir|||
+pull|tirar (de), jalar|||
+return|volver; devolver|||
+explain|explicar|||
+hope|esperar (desear)|||
+develop|desarrollar|||
+carry|llevar, cargar|||
+break|romper|broke|broken|
+receive|recibir|||
+agree|estar de acuerdo|||
+support|apoyar|||
+hit|golpear|hit|hit|hitting
+produce|producir|||
+eat|comer|ate|eaten|
+cover|cubrir|||
+catch|atrapar, coger (un bus)|caught|caught|
+draw|dibujar|drew|drawn|
+choose|elegir|chose|chosen|
+cause|causar|||
+listen|escuchar|||
+realize|darse cuenta|||
+close|cerrar|||
+thank|agradecer|||
+prepare|preparar|||
+drive|conducir|drove|driven|
+wear|llevar puesto|wore|worn|
+teach|enseñar|taught|taught|
+forget|olvidar|forgot|forgotten|forgetting
+fly|volar|flew|flown|
+sleep|dormir|slept|slept|
+drink|beber|drank|drunk|
+sing|cantar|sang|sung|
+swim|nadar|swam|swum|swimming
+throw|lanzar, tirar|threw|thrown|
+fight|pelear, luchar|fought|fought|
+feed|alimentar, dar de comer|fed|fed|
+hide|esconder|hid|hidden|
+ride|montar (en bici, a caballo)|rode|ridden|
+ring|sonar; llamar (por teléfono)|rang|rung|
+rise|subir, elevarse|rose|risen|
+shake|sacudir, agitar|shook|shaken|
+shoot|disparar; rodar (una película)|shot|shot|
+shut|cerrar|shut|shut|shutting
+steal|robar|stole|stolen|
+stick|pegar(se)|stuck|stuck|
+wake|despertar(se)|woke|woken|
+bite|morder|bit|bitten|
+blow|soplar|blew|blown|
+burn|quemar|burned/burnt|burned/burnt|
+dig|cavar|dug|dug|digging
+dream|soñar|dreamed/dreamt|dreamed/dreamt|
+forgive|perdonar|forgave|forgiven|
+freeze|congelar(se)|froze|frozen|
+hang|colgar|hung|hung|
+hurt|herir; doler|hurt|hurt|
+lend|prestar|lent|lent|
+cost|costar|cost|cost|
+quit|dejar (un trabajo, un hábito)|quit|quit|quitting
+seek|buscar (formal)|sought|sought|
+spread|extender, untar|spread|spread|
+bet|apostar|bet|bet|betting
+bend|doblar(se)|bent|bent|
+deal|tratar (con); repartir|dealt|dealt|
+lay|poner, colocar|laid|laid|
+smell|oler|smelled/smelt|smelled/smelt|
+beat|vencer; golpear|beat|beaten|
+sweep|barrer|swept|swept|
+plan|planear|planned|planned|
+travel|viajar|traveled/travelled|traveled/travelled|traveling/travelling
+study|estudiar|||
+cry|llorar|||
+enjoy|disfrutar|||
+visit|visitar|||
+answer|responder|||
+cook|cocinar|||
+clean|limpiar|||
+finish|terminar|||
+miss|echar de menos; perder (el tren)|||
+worry|preocuparse|||
+hurry|darse prisa|||
+marry|casarse con|||
+apply|solicitar; aplicar|||
+prefer|preferir|preferred|preferred|
+admit|admitir|admitted|admitted|
+occur|ocurrir|occurred|occurred|
+refer|referirse|referred|referred|
+control|controlar|controlled|controlled|
+drop|dejar caer|dropped|dropped|
+shop|ir de compras|shopped|shopped|
+chat|charlar|chatted|chatted|
+fit|caber; quedar bien (ropa)|fit/fitted|fit/fitted|fitting
+check|comprobar, revisar|||
+fix|arreglar|||
+push|empujar|||
+touch|tocar|||
+improve|mejorar|||
+compare|comparar|||
+describe|describir|||
+discover|descubrir|||
+fill|llenar; rellenar|||
+join|unirse a|||
+laugh|reír(se)|||
+manage|gestionar; lograr|||
+notice|notar, darse cuenta|||
+order|pedir (en un restaurante); ordenar|||
+pick|escoger; recoger|||
+promise|prometer|||
+protect|proteger|||
+relax|relajarse|||
+rent|alquilar|||
+save|ahorrar; salvar; guardar (un archivo)|||
+share|compartir|||
+smile|sonreír|||
+solve|resolver|||
+borrow|pedir prestado|||
+book|reservar|||
+complain|quejarse|||
+deliver|entregar, repartir|||
+deserve|merecer|||
+fail|fallar; suspender (un examen)|||
+guess|adivinar; suponer|||
+hate|odiar|||
+invite|invitar|||
+pretend|fingir (≠ pretender)|||
+prevent|evitar, impedir|||
+recognize|reconocer|||
+refuse|negarse|||
+warn|advertir|||

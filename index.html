@@ -14,13 +14,17 @@
 <body>
   <header class="topbar">
     <div class="wrap topbar-inner">
-      <a class="brand" href="#grammar"><span class="brand-mark">ñ</span> Spanish Drill</a>
+      <a class="brand" href="#grammar"><span class="brand-mark" id="brandMark">ñ</span> <span id="brandName">Spanish Drill</span></a>
       <nav class="tabs" aria-label="Sections">
-        <a href="#grammar" data-tab="grammar">How it works</a>
-        <a href="#verbs" data-tab="verbs">200 Verbs</a>
-        <a href="#vocab" data-tab="vocab">Vocabulary</a>
-        <a href="#practice" data-tab="practice">Practice</a>
+        <a href="#grammar" data-tab="grammar" data-i18n="tabGrammar">How it works</a>
+        <a href="#verbs" data-tab="verbs" data-i18n="tabVerbs">200 Verbs</a>
+        <a href="#vocab" data-tab="vocab" data-i18n="tabVocab">Vocabulary</a>
+        <a href="#practice" data-tab="practice" data-i18n="tabPractice">Practice</a>
       </nav>
+      <div class="seg lang" role="group" aria-label="Language / Idioma" id="langSwitch">
+        <button type="button" data-mode="learn-es" aria-pressed="true" title="Learn Spanish — explanations in English">🇪🇸 <span>Learn Spanish</span></button>
+        <button type="button" data-mode="learn-en" aria-pressed="false" title="Aprender inglés — explicaciones en español">🇬🇧 <span>Aprender inglés</span></button>
+      </div>
       <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle dark mode">◐</button>
     </div>
   </header>
@@ -29,13 +33,13 @@
 
     <!-- ===================================================== GRAMMAR -->
     <section id="view-grammar" class="view" data-view="grammar">
-      <div class="page-head">
+      <div class="page-head" data-only="learn-es">
         <h1>How conjugation works</h1>
         <p class="lead">Every verb = <b>stem</b> + <b class="end">ending</b>. Remove <i>-ar / -er / -ir</i>, add the ending for person and tense. The irregulars follow a handful of patterns — learn the pattern, not every single form.</p>
         <p class="legend"><span><b class="end">bold</b> = ending</span><span><span class="irr">underlined</span>* = irregular part</span></p>
       </div>
 
-      <div class="grammar-layout">
+      <div class="grammar-layout" data-only="learn-es">
         <aside class="toc" aria-label="Grammar contents">
           <a href="#g-groups">1 · The three groups</a>
           <a href="#g-pres">2 · Presente</a>
@@ -234,25 +238,214 @@
           </article>
         </div>
       </div>
+      <div class="page-head" data-only="learn-en">
+        <h1>Cómo funcionan los verbos en inglés</h1>
+        <p class="lead">Buena noticia: el verbo inglés casi no cambia. Solo tiene <b>5 formas</b> — el resto lo hacen los <b>verbos auxiliares</b> (<i>be, have, do, will, would</i>). Lo difícil son los <b>pasados irregulares</b> y saber <b>qué tiempo</b> usar.</p>
+        <p class="legend"><span><b class="end">negrita</b> = terminación regular</span><span><span class="irr">subrayado</span>* = forma irregular</span></p>
+      </div>
+
+      <div class="grammar-layout" data-only="learn-en">
+        <aside class="toc" aria-label="Índice de gramática">
+          <a href="#e-forms">1 · Las 5 formas</a>
+          <a href="#e-ps">2 · Present simple</a>
+          <a href="#e-pc">3 · Present continuous</a>
+          <a href="#e-pas">4 · Past simple</a>
+          <a href="#e-irr">5 · Verbos irregulares</a>
+          <a href="#e-pp">6 · Present perfect</a>
+          <a href="#e-past2">7 · Past continuous & perfect</a>
+          <a href="#e-fut">8 · Futuro</a>
+          <a href="#e-cond">9 · Condicional & if</a>
+          <a href="#e-err">10 · Errores típicos</a>
+          <a href="#e-cheat">★ Chuleta</a>
+        </aside>
+
+        <div class="grammar-body">
+
+          <article class="card" id="e-forms">
+            <h2><span class="num">1</span> Las 5 formas de un verbo</h2>
+            <p>En español un verbo tiene más de 50 formas. En inglés, solo cinco:</p>
+            <div class="endings en-parts" data-verbs="work,live,study,stop,go,write"></div>
+            <div class="rule"><span class="rule-label">Regla de oro</span> Los verbos <b>regulares</b> forman pasado y participio con <b class="end">-ed</b> (iguales). Los <b>irregulares</b> hay que aprenderlos — pero siguen <b>4 patrones</b> (ver sección 5).</div>
+          </article>
+
+          <article class="card" id="e-ps">
+            <h2><span class="num">2</span> Present simple <small>Presente simple — hábitos, hechos, horarios: I work every day</small></h2>
+            <div class="endings en-table" data-tense="ps" data-verbs="work,watch,study,have"></div>
+            <div class="rule"><span class="rule-label">Recuerda</span> <b>He, she, it → -s.</b> Es la única forma que cambia: <i>I work → she work<b class="end">s</b></i>. Olvidar la -s es el error más común.</div>
+            <div class="pattern">
+              <h4>Ortografía de la -s</h4>
+              <table class="mini">
+                <tr><th>-s, -x, -sh, -ch, -o</th><td>+ <b class="end">es</b>: watch<b class="end">es</b>, fix<b class="end">es</b>, go<b class="end">es</b>, do<b class="end">es</b></td></tr>
+                <tr><th>consonante + y</th><td>y → <b class="end">ies</b>: stud<b class="end">ies</b>, tr<b class="end">ies</b> — <i>pero</i> vocal + y: play<b class="end">s</b>, buy<b class="end">s</b></td></tr>
+                <tr><th>irregular</th><td>have → <span class="irr">has</span> · be → am / are / <span class="irr">is</span></td></tr>
+              </table>
+            </div>
+            <div class="pattern">
+              <h4>Negativa y pregunta: con <i>do / does</i></h4>
+              <div class="endings en-table" data-tense="psn" data-verbs="work,go"></div>
+              <p>Con <i>does</i> la -s pasa al auxiliar: <i>She <b>does</b>n't work</i> (✗ <s>doesn't works</s>) · <i><b>Does</b> he live here?</i> (✗ <s>Does he lives</s>).</p>
+              <p class="tip"><b>Truco:</b> la -s solo aparece <b>una vez</b> por frase — o en el verbo (<i>works</i>) o en el auxiliar (<i>does</i>), nunca en los dos.</p>
+            </div>
+          </article>
+
+          <article class="card" id="e-pc">
+            <h2><span class="num">3</span> Present continuous <small>Presente continuo — ahora mismo, situaciones temporales, planes fijados</small></h2>
+            <div class="endings en-table" data-tense="pc" data-verbs="work,make,stop,die"></div>
+            <div class="pattern">
+              <h4>Ortografía de -ing</h4>
+              <table class="mini">
+                <tr><th>-e muda</th><td>se quita: mak<b class="end">ing</b>, writ<b class="end">ing</b>, com<b class="end">ing</b> — <i>pero</i> -ee: see<b class="end">ing</b>, agree<b class="end">ing</b></td></tr>
+                <tr><th>-ie</th><td>→ <b class="end">ying</b>: d<b class="end">ying</b>, l<b class="end">ying</b></td></tr>
+                <tr><th>consonante doble</th><td>sílaba corta y acentuada (consonante-vocal-consonante): sto<b class="end">pping</b>, swi<b class="end">mming</b>, begi<b class="end">nning</b>, run<b class="end">ning</b> — <i>pero</i> visiting, opening (acento en otra sílaba)</td></tr>
+              </table>
+            </div>
+            <div class="rule"><span class="rule-label">Ojo</span> Los <b>verbos de estado</b> casi nunca van en continuo: <i>know, like, love, want, need, believe, understand, mean</i>. ✓ <i>I know</i> — ✗ <s>I'm knowing</s>.</div>
+            <p class="tip"><b>Diferencia con el español:</b> "Trabajo en Madrid" (en general) = <i>I work</i>; "Estoy trabajando en Madrid (este mes)" = <i>I'm working</i>. En inglés el continuo se usa más que en español para lo temporal.</p>
+          </article>
+
+          <article class="card" id="e-pas">
+            <h2><span class="num">4</span> Past simple <small>Pasado simple = pretérito indefinido e imperfecto a la vez</small></h2>
+            <div class="endings en-table" data-tense="pas" data-verbs="work,live,study,stop"></div>
+            <p>Igual para <b>todas</b> las personas — ni siquiera "he" cambia. Solo <i>be</i> tiene dos formas: I / he / she / it <b>was</b>, you / we / they <b>were</b>.</p>
+            <div class="pattern">
+              <h4>Ortografía de -ed</h4>
+              <table class="mini">
+                <tr><th>termina en -e</th><td>solo + <b class="end">d</b>: live<b class="end">d</b>, agree<b class="end">d</b></td></tr>
+                <tr><th>consonante + y</th><td>→ <b class="end">ied</b>: stud<b class="end">ied</b>, carr<b class="end">ied</b> — <i>pero</i> play<b class="end">ed</b>, enjoy<b class="end">ed</b></td></tr>
+                <tr><th>consonante doble</th><td>como en -ing: sto<b class="end">pped</b>, pla<b class="end">nned</b>, prefe<b class="end">rred</b></td></tr>
+              </table>
+            </div>
+            <div class="pattern">
+              <h4>Pronunciación de -ed (¡muy importante!)</h4>
+              <table class="mini">
+                <tr><th>/ɪd/ — sílaba extra</th><td>solo después de <b>t</b> o <b>d</b>: want<b class="end">ed</b>, need<b class="end">ed</b>, decid<b class="end">ed</b></td></tr>
+                <tr><th>/t/</th><td>después de sonidos sordos (p, k, s, sh, ch, f): work<i>t</i>, stop<i>t</i>, watch<i>t</i> — "workd" se dice <b>"workt"</b></td></tr>
+                <tr><th>/d/</th><td>el resto: play<i>d</i>, liv<i>d</i>, open<i>d</i></td></tr>
+              </table>
+              <p class="tip"><b>Truco:</b> la -ed casi nunca es una sílaba propia. <i>Worked</i> tiene <b>una</b> sílaba, no "work-ed".</p>
+            </div>
+            <div class="pattern">
+              <h4>Negativa y pregunta: <i>did</i> + infinitivo</h4>
+              <div class="endings en-table" data-tense="pasn" data-verbs="work,go"></div>
+              <p>El pasado lo lleva <i>did</i> — el verbo vuelve a la forma base: <i>I didn't <b>go</b></i> (✗ <s>didn't went</s>) · <i>Did you <b>see</b> it?</i> (✗ <s>Did you saw</s>).</p>
+            </div>
+          </article>
+
+          <article class="card" id="e-irr">
+            <h2><span class="num">5</span> Verbos irregulares <small>base — pasado — participio</small></h2>
+            <p>Hay unos 150 de uso real, y los más frecuentes son irregulares. No los aprendas en orden alfabético: apréndelos <b>por patrón</b>.</p>
+            <table class="mini">
+              <tr><th>A-A-A<br><small>los tres iguales</small></th><td><span class="irr">cut</span> cut cut · put · let · set · hit · hurt · cost · shut · quit · spread · bet — y <i>read</i> (se escribe igual, pero el pasado se pronuncia "red")</td></tr>
+              <tr><th>A-B-B<br><small>pasado = participio</small></th><td>
+                <b>-ought / -aught:</b> bring <span class="irr">brought</span> · think <span class="irr">thought</span> · buy <span class="irr">bought</span> · fight <span class="irr">fought</span> · teach <span class="irr">taught</span> · catch <span class="irr">caught</span><br>
+                <b>-ept / -elt:</b> sleep <span class="irr">slept</span> · keep <span class="irr">kept</span> · feel <span class="irr">felt</span> · leave <span class="irr">left</span> · mean <span class="irr">meant</span><br>
+                <b>-d → -t:</b> send <span class="irr">sent</span> · spend <span class="irr">spent</span> · lend <span class="irr">lent</span> · build <span class="irr">built</span> · bend <span class="irr">bent</span><br>
+                <b>otros:</b> make <span class="irr">made</span> · have <span class="irr">had</span> · say <span class="irr">said</span> · pay <span class="irr">paid</span> · sell <span class="irr">sold</span> · tell <span class="irr">told</span> · find <span class="irr">found</span> · stand <span class="irr">stood</span> · understand · win <span class="irr">won</span> · sit <span class="irr">sat</span> · meet <span class="irr">met</span> · lose <span class="irr">lost</span> · hear <span class="irr">heard</span> · get <span class="irr">got</span>
+              </td></tr>
+              <tr><th>A-B-A<br><small>participio = base</small></th><td>come <span class="irr">came</span> come · become <span class="irr">became</span> become · run <span class="irr">ran</span> run</td></tr>
+              <tr><th>A-B-C<br><small>los tres distintos</small></th><td>
+                <b>i – a – u:</b> begin <span class="irr">began</span> <span class="irr">begun</span> · drink drank drunk · sing sang sung · swim swam swum · ring rang rung<br>
+                <b>-ew / -own:</b> know <span class="irr">knew</span> <span class="irr">known</span> · grow grew grown · throw threw thrown · fly flew flown · blow blew blown · draw drew drawn<br>
+                <b>-o- / -en:</b> speak <span class="irr">spoke</span> <span class="irr">spoken</span> · break broke broken · choose chose chosen · steal stole stolen · wake woke woken · freeze froze frozen<br>
+                <b>-ote / -itten:</b> write <span class="irr">wrote</span> <span class="irr">written</span> · drive drove driven · ride rode ridden · rise rose risen · bite bit bitten · hide hid hidden<br>
+                <b>-en:</b> take took taken · shake shook shaken · eat ate eaten · fall fell fallen · give gave given · forget forgot forgotten · see saw seen<br>
+                <b>sueltos:</b> be <span class="irr">was/were</span> <span class="irr">been</span> · do <span class="irr">did</span> <span class="irr">done</span> · go <span class="irr">went</span> <span class="irr">gone</span> · wear wore worn
+              </td></tr>
+            </table>
+            <p class="tip"><b>Truco:</b> léelos en voz alta como una canción — "drink, drank, drunk; sing, sang, sung". El ritmo i-a-u se queda. En la lista de <a href="#verbs">200 verbos</a> puedes filtrar por patrón.</p>
+            <p class="tip"><b>UK / US:</b> el inglés británico tiene algunos pasados en -t (<i>learnt, dreamt, burnt</i>) y el americano <i>gotten</i> como participio de <i>get</i>. Ambos son correctos — la práctica acepta las dos versiones.</p>
+          </article>
+
+          <article class="card" id="e-pp">
+            <h2><span class="num">6</span> Present perfect <small>have / has + participio — el tiempo más difícil para hispanohablantes</small></h2>
+            <div class="endings en-table" data-tense="pp" data-verbs="work,go,see"></div>
+            <div class="rule"><span class="rule-label">Cuándo</span> Pasado <b>sin momento concreto</b> o que <b>sigue conectado con el presente</b>: experiencias (<i>I've been to Japan</i>), resultados (<i>I've lost my keys</i>), con <i>ever, never, already, yet, just</i>.</div>
+            <div class="pattern">
+              <h4>La trampa: no es igual que "he comido"</h4>
+              <table class="mini">
+                <tr><th>momento terminado</th><td>"Esta mañana he comido paella" → <i>I <b>ate</b> paella this morning</i> (la mañana ya pasó → past simple). Con <i>yesterday, last week, in 2020, ago</i> siempre past simple.</td></tr>
+                <tr><th>"desde hace"</th><td>"Vivo aquí desde hace 3 años" → <i>I <b>have lived</b> here for 3 years</i> (✗ <s>I live here since 3 years</s>). <b>for</b> = duración (for 3 years) · <b>since</b> = punto de inicio (since 2023).</td></tr>
+                <tr><th>"acabo de"</th><td><i>I've <b>just</b> arrived</i> = acabo de llegar.</td></tr>
+              </table>
+            </div>
+            <p class="tip"><b>Present perfect continuous</b> (<i>have been + -ing</i>) para acciones que siguen: <i>I've been studying for two hours</i> = llevo dos horas estudiando.</p>
+          </article>
+
+          <article class="card" id="e-past2">
+            <h2><span class="num">7</span> Past continuous & Past perfect</h2>
+            <table class="mini">
+              <tr><th>Past continuous</th><td><b>was / were + -ing</b> = "estaba haciendo" — la escena de fondo: <i>I <b>was cooking</b> when you called.</i></td></tr>
+              <tr><th>Past perfect</th><td><b>had + participio</b> = "había hecho" — algo anterior a otro pasado: <i>When I arrived, the train <b>had left</b>.</i></td></tr>
+            </table>
+            <p class="tip"><b>Truco:</b> el pasado simple cuenta la historia (<i>called, arrived</i>); el continuo pinta el fondo; el perfecto mira más atrás.</p>
+          </article>
+
+          <article class="card" id="e-fut">
+            <h2><span class="num">8</span> Futuro <small>tres formas — cada una con su uso</small></h2>
+            <table class="mini">
+              <tr><th>will + base</th><td>decisiones en el momento, promesas, predicciones: <i>I'<b>ll help</b> you.</i> — <i>will</i> nunca cambia: <i>she will go</i> (✗ <s>she wills go</s>, ✗ <s>will goes</s>).</td></tr>
+              <tr><th>be going to + base</th><td>planes e intenciones ya decididos: <i>I'<b>m going to study</b> in Japan.</i></td></tr>
+              <tr><th>present continuous</th><td>citas y planes con fecha: <i>I'<b>m meeting</b> Ana on Friday.</i></td></tr>
+            </table>
+            <div class="endings en-table" data-tense="gt" data-verbs="work,go"></div>
+          </article>
+
+          <article class="card" id="e-cond">
+            <h2><span class="num">9</span> Condicional & frases con <i>if</i></h2>
+            <p><b>would + base</b> = condicional español: <i>I <b>would buy</b> it</i> = lo compraría. <b>would have + participio</b> = lo habría comprado.</p>
+            <table class="mini">
+              <tr><th>Tipo 1 · real</th><td><b>if + present</b>, will + base — <i>If it rains, I'll stay at home.</i></td></tr>
+              <tr><th>Tipo 2 · hipotético</th><td><b>if + past simple</b>, would + base — <i>If I had money, I would travel.</i> (si tuviera…)</td></tr>
+              <tr><th>Tipo 3 · imposible</th><td><b>if + past perfect</b>, would have + participio — <i>If I had known, I would have come.</i> (si lo hubiera sabido…)</td></tr>
+            </table>
+            <div class="rule"><span class="rule-label">Regla</span> <b>Nunca</b> <i>will</i> ni <i>would</i> en la parte del <i>if</i>. ✗ <s>If I would have money</s> → ✓ <i>If I had money</i>. Igual que en español: "si tuviera", no "si tendría".</div>
+            <p class="tip">Con <i>be</i> en el tipo 2 se puede usar <i>were</i> para todos: <i>If I <b>were</b> you…</i> (= yo que tú…).</p>
+          </article>
+
+          <article class="card" id="e-err">
+            <h2><span class="num">10</span> Errores típicos de hispanohablantes</h2>
+            <table class="mini">
+              <tr><th>✗ I have 20 years</th><td>✓ I <b>am</b> 20 (years old) — la edad va con <i>be</i></td></tr>
+              <tr><th>✗ He don't like it</th><td>✓ He <b>doesn't</b> like it</td></tr>
+              <tr><th>✗ I am agree</th><td>✓ I <b>agree</b> — <i>agree</i> ya es verbo</td></tr>
+              <tr><th>✗ People is nice</th><td>✓ People <b>are</b> nice — <i>people</i> es plural</td></tr>
+              <tr><th>✗ Explain me</th><td>✓ Explain <b>to</b> me</td></tr>
+              <tr><th>✗ Depend of</th><td>✓ Depend <b>on</b></td></tr>
+              <tr><th>✗ I go to home</th><td>✓ I go home</td></tr>
+              <tr><th>make vs do</th><td><b>make</b> = crear / producir (make a cake, a mistake, a decision, money) · <b>do</b> = actividad / tarea (do homework, the dishes, sport, a favour)</td></tr>
+              <tr><th>falsos amigos</th><td><i>pretend</i> = fingir · <i>actually</i> = en realidad · <i>embarrassed</i> = avergonzado · <i>sensible</i> = sensato · <i>library</i> = biblioteca · <i>realize</i> = darse cuenta</td></tr>
+            </table>
+          </article>
+
+          <article class="card cheat" id="e-cheat">
+            <h2>★ Chuleta — lo que hay que memorizar</h2>
+            <ol>
+              <li><b>Presente:</b> he / she / it → -s · negativa con don't / doesn't + base.</li>
+              <li><b>Continuo:</b> am / is / are + -ing · no con know, like, want, need.</li>
+              <li><b>Pasado:</b> -ed (pronunciado /t/, /d/ o /ɪd/) · negativa didn't + base.</li>
+              <li><b>Irregulares:</b> aprende los ~95 de la lista por patrón (A-A-A, A-B-B, A-B-A, A-B-C).</li>
+              <li><b>Present perfect:</b> have / has + participio — sin fecha concreta, for / since.</li>
+              <li><b>Futuro:</b> will (ahora decido) · going to (ya lo había decidido).</li>
+              <li><b>If:</b> nunca will / would después de if.</li>
+            </ol>
+            <p class="see">Y luego a practicar: <a href="#practice">Práctica →</a></p>
+          </article>
+        </div>
+      </div>
     </section>
 
     <!-- ===================================================== VERBS -->
     <section id="view-verbs" class="view" data-view="verbs" hidden>
       <div class="page-head">
-        <h1>200 core verbs</h1>
-        <p class="lead">The most used verbs in everyday Spanish, in rough frequency order. Click a verb for its full conjugation.</p>
+        <h1 data-i18n="verbsH">200 core verbs</h1>
+        <p class="lead" data-i18n="verbsLead">The most used verbs in everyday Spanish, in rough frequency order. Click a verb for its full conjugation.</p>
       </div>
       <div class="toolbar">
-        <input type="search" id="verbSearch" placeholder="Search Spanish or English…" aria-label="Search verbs">
-        <div class="seg" role="group" aria-label="Verb group" id="verbGroup">
-          <button type="button" data-v="all" aria-pressed="true">All</button>
-          <button type="button" data-v="ar">-ar</button>
-          <button type="button" data-v="er">-er</button>
-          <button type="button" data-v="ir">-ir</button>
-        </div>
+        <input type="search" id="verbSearch" data-i18n-ph="verbsSearch" placeholder="Search Spanish or English…" aria-label="Search verbs">
+        <div class="seg" role="group" aria-label="Verb group" id="verbGroup"></div>
         <select id="verbTag" aria-label="Pattern"><option value="all">All patterns</option></select>
         <select id="verbSort" aria-label="Sort">
-          <option value="freq">By frequency</option>
+          <option value="freq" data-i18n="byFreq">By frequency</option>
           <option value="az">A → Z</option>
         </select>
       </div>
@@ -263,18 +456,18 @@
     <!-- ===================================================== VOCAB -->
     <section id="view-vocab" class="view" data-view="vocab" hidden>
       <div class="page-head">
-        <h1>Vocabulary</h1>
-        <p class="lead">Everyday verbs and words at a simple-to-intermediate level — beyond the basics. Turn on <i>Hide English</i> to quiz yourself: tap a card to reveal.</p>
+        <h1 data-i18n="vocabH">Vocabulary</h1>
+        <p class="lead" data-i18n="vocabLead">Everyday verbs and words at a simple-to-intermediate level — beyond the basics. Turn on <i>Hide English</i> to quiz yourself: tap a card to reveal.</p>
       </div>
       <div class="toolbar">
         <div class="seg" role="group" aria-label="List" id="vocabKind">
-          <button type="button" data-v="verbs" aria-pressed="true">Verbs <span id="vcVerbs"></span></button>
-          <button type="button" data-v="words">Words <span id="vcWords"></span></button>
+          <button type="button" data-v="verbs" aria-pressed="true"><span data-i18n="verbs">Verbs</span> <span id="vcVerbs"></span></button>
+          <button type="button" data-v="words"><span data-i18n="words">Words</span> <span id="vcWords"></span></button>
         </div>
-        <input type="search" id="vocabSearch" placeholder="Search…" aria-label="Search vocabulary">
+        <input type="search" id="vocabSearch" data-i18n-ph="search" placeholder="Search…" aria-label="Search vocabulary">
         <select id="vocabCat" aria-label="Category"></select>
-        <label class="check"><input type="checkbox" id="vocabHide"> Hide English</label>
-        <button type="button" class="btn ghost" id="vocabShuffle">Shuffle</button>
+        <label class="check"><input type="checkbox" id="vocabHide"> <span data-i18n="hideMeaning">Hide English</span></label>
+        <button type="button" class="btn ghost" id="vocabShuffle" data-i18n="shuffle">Shuffle</button>
       </div>
       <nav class="az" id="vocabAZ" aria-label="Jump to letter"></nav>
       <p class="count" id="vocabCount"></p>
@@ -284,39 +477,39 @@
     <!-- ===================================================== PRACTICE -->
     <section id="view-practice" class="view" data-view="practice" hidden>
       <div class="page-head">
-        <h1>Verb checker</h1>
-        <p class="lead">You get a random verb from the 200 and a tense — type the forms, press <kbd>Enter</kbd> to check, <kbd>Enter</kbd> again for the next verb.</p>
+        <h1 data-i18n="practiceH">Verb checker</h1>
+        <p class="lead" data-i18n="practiceLead">You get a random verb from the 200 and a tense — type the forms, press <kbd>Enter</kbd> to check, <kbd>Enter</kbd> again for the next verb.</p>
       </div>
 
       <div class="practice-layout">
         <details class="card settings" id="settings" open>
-          <summary>Settings</summary>
+          <summary data-i18n="settings">Settings</summary>
           <fieldset>
-            <legend>Tenses</legend>
+            <legend data-i18n="tenses">Tenses</legend>
             <div class="tense-checks" id="tenseChecks"></div>
-            <div class="mini-actions"><button type="button" class="link" id="tAll">all</button> · <button type="button" class="link" id="tNone">none</button> · <button type="button" class="link" id="tBasic">basics</button></div>
+            <div class="mini-actions"><button type="button" class="link" id="tAll" data-i18n="all">all</button> · <button type="button" class="link" id="tNone" data-i18n="none">none</button> · <button type="button" class="link" id="tBasic" data-i18n="basics">basics</button></div>
           </fieldset>
           <fieldset>
-            <legend>Verbs</legend>
+            <legend data-i18n="verbs">Verbs</legend>
             <select id="poolSel">
-              <option value="all">All 200 verbs</option>
-              <option value="irregular">Only irregular verbs</option>
-              <option value="regular">Only regular verbs</option>
+              <option value="all" data-i18n="poolAll">All 200 verbs</option>
+              <option value="irregular" data-i18n="poolIrr">Only irregular verbs</option>
+              <option value="regular" data-i18n="poolReg">Only regular verbs</option>
               <option value="top50">Top 50</option>
               <option value="top100">Top 100</option>
             </select>
           </fieldset>
           <fieldset>
-            <legend>Mode</legend>
-            <label class="check"><input type="radio" name="mode" value="table" checked> Full table (all persons)</label>
-            <label class="check"><input type="radio" name="mode" value="single"> Quick (one random person)</label>
+            <legend data-i18n="mode">Mode</legend>
+            <label class="check"><input type="radio" name="mode" value="table" checked> <span data-i18n="modeTable">Full table (all persons)</span></label>
+            <label class="check"><input type="radio" name="mode" value="single"> <span data-i18n="modeSingle">Quick (one random person)</span></label>
           </fieldset>
-          <fieldset>
+          <fieldset data-only="learn-es">
             <legend>Accents</legend>
             <label class="check"><input type="radio" name="acc" value="strict" checked> Strict</label>
             <label class="check"><input type="radio" name="acc" value="lenient"> Lenient (missing accent = warning)</label>
           </fieldset>
-          <p class="hint">Settings and stats are saved in this browser.</p>
+          <p class="hint" data-i18n="savedHint">Settings and stats are saved in this browser.</p>
         </details>
 
         <div class="card drill" id="drill">
@@ -330,21 +523,21 @@
           </div>
           <form id="drillForm" autocomplete="off" spellcheck="false">
             <div class="drill-rows" id="dRows"></div>
-            <div class="accents" aria-label="Insert special character">
+            <div class="accents" aria-label="Insert special character" data-only="learn-es">
               <button type="button" data-ch="á">á</button><button type="button" data-ch="é">é</button><button type="button" data-ch="í">í</button><button type="button" data-ch="ó">ó</button><button type="button" data-ch="ú">ú</button><button type="button" data-ch="ñ">ñ</button><button type="button" data-ch="ü">ü</button>
             </div>
             <div class="drill-actions">
               <button type="submit" class="btn" id="checkBtn">Check</button>
-              <button type="button" class="btn ghost" id="revealBtn">Show answer</button>
-              <button type="button" class="btn ghost" id="skipBtn">Skip</button>
-              <button type="button" class="btn ghost" id="openVerbBtn">Full table</button>
+              <button type="button" class="btn ghost" id="revealBtn" data-i18n="reveal">Show answer</button>
+              <button type="button" class="btn ghost" id="skipBtn" data-i18n="skip">Skip</button>
+              <button type="button" class="btn ghost" id="openVerbBtn" data-i18n="fullTable">Full table</button>
             </div>
           </form>
           <p class="result" id="dResult" aria-live="polite"></p>
         </div>
 
         <div class="card stats">
-          <h3>Your stats <button type="button" class="link" id="resetStats">reset</button></h3>
+          <h3><span data-i18n="stats">Your stats</span> <button type="button" class="link" id="resetStats" data-i18n="reset">reset</button></h3>
           <div id="statsBody"></div>
         </div>
       </div>
@@ -359,18 +552,19 @@
         <p class="drill-tags" id="vdTags"></p>
       </div>
       <div class="dlg-actions">
-        <button type="button" class="btn ghost" id="vdPractice">Practice this verb</button>
+        <button type="button" class="btn ghost" id="vdPractice" data-i18n="practiceVerb">Practice this verb</button>
         <button type="button" class="btn ghost close" id="vdClose" aria-label="Close">✕</button>
       </div>
     </div>
-    <p class="legend"><span><b class="end">bold</b> = regular ending</span><span><span class="irr">underlined</span>* = irregular (hover/tap for the regular pattern)</span></p>
+    <p class="legend" data-i18n="dlgLegend"><span><b class="end">bold</b> = regular ending</span><span><span class="irr">underlined</span>* = irregular (hover/tap for the regular pattern)</span></p>
     <div class="conj-grid" id="vdGrid"></div>
   </dialog>
 
-  <footer class="wrap foot">Spanish → English · conjugations generated with <a href="https://github.com/bretttolbert/verbecc">verbecc</a> · RAE 2010 spelling (<i>rio, hui, guion</i>)</footer>
+  <footer class="wrap foot" data-i18n="footer">Spanish → English · conjugations generated with <a href="https://github.com/bretttolbert/verbecc">verbecc</a> · RAE 2010 spelling (<i>rio, hui, guion</i>)</footer>
 
   <script src="data/verbs.js"></script>
   <script src="data/vocab.js"></script>
+  <script src="data/en_verbs.js"></script>
   <script src="assets/js/app.js"></script>
 </body>
 </html>
